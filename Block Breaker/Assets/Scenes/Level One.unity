@@ -755,6 +755,7 @@ GameObject:
   - component: {fileID: 1549985170}
   - component: {fileID: 1549985169}
   - component: {fileID: 1549985171}
+  - component: {fileID: 1549985172}
   m_Layer: 0
   m_Name: Block
   m_TagString: Untagged
@@ -798,7 +799,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 99075b7162d53674bb6668a8c6cde334, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.19339621, b: 0.20856903, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -815,8 +816,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1549985168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.76, y: 10.96, z: 0}
-  m_LocalScale: {x: 1.8020346, y: 1.5865877, z: 1}
+  m_LocalPosition: {x: 5.63, y: 5.99, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -833,19 +834,30 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0046625435, y: 0.00000008195639}
+  m_Offset: {x: -0.0045256615, y: 0.005412817}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.4848485, y: 0.4848485}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1.28, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.48896092, y: 0.48474675}
+  m_Size: {x: 0.97167206, y: 0.9669719}
   m_EdgeRadius: 0
+--- !u!114 &1549985172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1549985168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501d2f2986141d442889e211cc0eb523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1672340591
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,6 +1005,7 @@ GameObject:
   - component: {fileID: 1873475850}
   - component: {fileID: 1873475849}
   - component: {fileID: 1873475851}
+  - component: {fileID: 1873475852}
   m_Layer: 0
   m_Name: Lose Collider
   m_TagString: Untagged
@@ -1047,6 +1060,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7eb4211067b7742428d14f9dda7cb41a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1873475852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1873475848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317274f4e0365442ab7c69f21b0fb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2047562835
